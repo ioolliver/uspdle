@@ -1,0 +1,60 @@
+{
+    "institutos": [
+        {
+            "name": "Instituto de Matemática e Estatística (IME)",
+            "imageUrl": "https://i.imgur.com/4T7SZhv.jpeg"
+        },
+        {
+            "name": "Faculdade de Arquitetura e Urbanismo (FAU)",
+            "imageUrl": "https://i.imgur.com/zMwxb9N.jpeg"
+        },
+        {
+            "name": "Escola Politénica (EP)",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/P_Bienio.jpg"
+        },
+        {
+            "name": "Instituto de Física (IF)",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Instituto_de_F%C3%ADsica_da_Universidade_de_S%C3%A3o_Paulo.JPG"
+        },
+        {
+            "name": "Restaurante Central",
+            "imageUrl": "https://i.imgur.com/sKuLSnA.jpeg"
+        },
+        {
+            "name": "Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH)",
+            "imageUrl": "https://i.imgur.com/LTQZ7KS.jpeg"
+        },
+        {
+            "name": "Centro de Práticas esportivas (CEPEUSP)",
+            "imageUrl": "https://i.imgur.com/bJRqD0W.jpeg"
+        },
+        {
+            "name": "Instituto de Astronomia, Geofísica e Ciências Atmosférias (IAG)",
+            "imageUrl": "https://i.imgur.com/BIwikPe.jpeg"
+        },
+        {
+            "name": "Faculdade de Medicina (FMU)",
+            "imageUrl": "https://i.imgur.com/wcmYqxR.jpeg"
+        },
+        {
+            "name": "Faculdade de Economia e Administração (FEA)",
+            "imageUrl": "https://i.imgur.com/354SZSt.jpeg"
+        },
+        {
+            "name": "Instituto Oceanográfico (IO)",
+            "imageUrl": "https://i.imgur.com/bazzQjq.jpeg"
+        },
+        {
+            "name": "Conjunto Residencial (CRUSP)",
+            "imageUrl": "https://i.imgur.com/bSu13Cw.jpeg"
+        },
+        {
+            "name": "Faculdade de Direito (SANFRAN)",
+            "imageUrl": "https://i.imgur.com/qHXR2wl.jpeg"
+        },
+        {
+            "name": "Praça do relógio",
+            "imageUrl": "https://i.imgur.com/8zvjf9o.jpeg"
+        }
+    ]
+}
