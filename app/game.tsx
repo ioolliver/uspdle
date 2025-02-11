@@ -5,10 +5,9 @@ import { ImagePixelated } from "next-pixelate";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { cn } from "@/lib/utils";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { Confetti, ConfettiButton } from "@/components/magicui/confetti";
+import { Confetti } from "@/components/magicui/confetti";
 import { DialogTitle } from "@radix-ui/react-dialog";
 import Image from "next/image";
-import { PulsatingButton } from "@/components/magicui/pulsating-button";
 import { AnimatedSubscribeButton } from "@/components/magicui/animated-subscribe-button";
 
 type TGuess = {
