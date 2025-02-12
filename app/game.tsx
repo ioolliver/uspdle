@@ -28,12 +28,22 @@ function SearchBar({ options, addGuess } : { options: string[], addGuess: (name:
     />
 }
 
+function getTodayGuess(institutos : TGuess[]) {
+    const date = new Date();
+    const randomNumber = date.getFullYear() + date.getMonth() + date.getDate();
+    const dataSize = institutos.length;
+    const index = randomNumber % dataSize;
+    return institutos[index]; 
+}
+
 const INITIAL_PIXEL_SIZE = 70;
 const DECREASE_PIXEL_RATE = 10;
 const SITE_LINK = "https://uspdle.vercel.app"
 
-export function Game({ todayGuess, options } : { todayGuess: TGuess, options: string[] }) {
+export function Game({ options, institutos } : { institutos: TGuess[], options: string[] }) {
     
+    const todayGuess = getTodayGuess(institutos);
+
     const [currentPixelSize, setCurrentPixelSize] = useState(INITIAL_PIXEL_SIZE);
     const [guesses, setGuesses] = useState<string[]>([]);
     const [openDialog, setOpenDialog] = useState(false);
